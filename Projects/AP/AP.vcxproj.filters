@@ -18,12 +18,15 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\GraphCut.cpp">
+    <ClCompile Include="ap_delegate.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\src\GraphCut.h">
+    <ClInclude Include="ap_delegate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\output.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
