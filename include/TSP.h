@@ -1,0 +1,1 @@
+extern "C" __declspec(dllimport) bool tsp_solve(void *root, bool usercut);
