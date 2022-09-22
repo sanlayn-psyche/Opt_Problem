@@ -10,6 +10,7 @@ RuntimeCut::RuntimeCut(GRBVar* vars, Mode mode, int n)
 	m_mode = mode;
 	m_num = n;
 	m_Solution = (double*)malloc(m_num * m_num * sizeof(double));
+	int test1 = 11111;
 }
 
 RuntimeCut::~RuntimeCut()
